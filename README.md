@@ -3,3 +3,5 @@
 
  # How to use it:
  Enter anything. A question, a statement, etc. The bot will respond to it accordingly.
+
+# Note: THIS IS A JOKE.
