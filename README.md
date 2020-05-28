@@ -5,3 +5,5 @@
  Enter anything. A question, a statement, etc. The bot will respond to it accordingly.
 
 # Note: THIS IS A JOKE.
+This is meant as a fun, passion project. The description above is a joke.
+Relax.
