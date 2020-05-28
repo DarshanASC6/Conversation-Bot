@@ -38,7 +38,7 @@ while True:
     create_speech()
     # This handles all statemets with the word "school" in them    
 
-    answer = "food"
-    print(food_answer[random.randint(0,(len(food_answer)-1))])
-    # This if statement handles all questions with the word "food" in them
-
+    # answer = "food"
+    # print(food_answer[random.randint(0,(len(food_answer)-1))])
+    # # This if statement handles all questions with the word "food" in them
+    # It also doesn't work
