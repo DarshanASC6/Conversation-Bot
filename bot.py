@@ -1,5 +1,4 @@
 import random
-import array as arr
 
 silent_answer = ["*shrugs*", "*silence*", "*stoic face combined with silence*", "*annyoed silence*"]
 
@@ -9,53 +8,44 @@ statement_answer = ["Nah", "No", "One second", "Yeah, let me just finish this fi
 
 food_answer = ["I'm good with anything", "Can I have desert?", "What can I have to eat?"]
 
-answer = ""
-
-def create_speech():
-    if ((answer in user_statement) and (num > 1)):
-        print(statement_answer[random.randint(0,(len(statement_answer)-1))])
-    elif ((answer in user_statement) and (num == 1)):
-        print(silent_answer[random.randint(0,(len(silent_answer)-1))])
-    elif ((answer in user_statement) and (num == 3)):
-        print(question_answer[random.randint(0,(len(question_answer)-1))])
-# This is the function that generates a random answer based on the above parameters
-
-def add_list():
-    question_answer.append("orange")
-    print(question_answer[(len(question_answer))-1])
-    print(question_answer)
-
-def remove_list():
-    question_answer.remove("orange")
-    print(question_answer[(len(question_answer))-1])
-    print(question_answer)
-
+def create_speech(user_statement, answer, num):
+    # this is not a pure function because it's nondeterministic but that's
+    # okay because it's intended functionality
+    
+    # handle this case first and exit early if it fails
+    if answer not in user_statement:
+        return None
+        
+    if num == 1:
+        return random.choice(silent_answer)
+    elif num == 2:
+        return random.choice(statement_answer)    
+    else:
+        return "\n".join((random.choice(statement_answer), random.choice(question_answer)))
+        
 while True:
     num = random.randint(1,3)
 
     user_statement = input("")
 
-    answer = "ACT"
-    create_speech()
-    # This handles all statemets with the word "ACT" in them
-    # Note to self: Find a way to break the function after this  
+    answers = ["ACT", "grade", "school"]
+    for i in answers:
+        response = create_speech(user_statement=user_statement, answer=i, num=num) 
+        if response is not None:
+            print(response)
 
-    answer = "grade"
-    create_speech()
-    # This handles all statemets with the word "grade" in them    
-
-    answer = "school"
-    create_speech()
-    # This handles all statemets with the word "school" in them    
-
-    if ("food" in user_statement):
-        print(food_answer[random.randint(0,(len(food_answer)-1))])
+    if "food" or "Food" in user_statement:
+        print(random.choice(food_answer))
     # This if statement handles all questions with the word "food" in them
 
-    if ("add" in user_statement):
-        add_list()
+
+    if "add" in user_statement:
+        question_answer.append("orange")
+        print(question_answer[-1])
     # This will write to the above answers
 
     if ("remove" in user_statement):
-        remove_list()
+        # trying to remove "orange" will fail if "orange" is not already in the list
+        question_answer.pop()
+        print(question_answer[-1])
     # This will remove one of the above answers
