@@ -62,19 +62,23 @@ while True:
         if response is not None:
             print(response)
 
-    if ("food" or "Food") in user_statement:
-        print(random.choice(data['food_answer']))
-    # This if statement handles all questions with the word "food" in them
+    for i in data['commands']:
+        # make a function here using all of the if statements below 
+        
 
-    if ("add") in user_statement:
-        add()
+        # if ("food" or "Food") in user_statement:
+        #     print(random.choice(data['food_answer']))
+        # # This if statement handles all questions with the word "food" in them
 
-    if ("remove") in user_statement:
-        remove()
+        # if ("add") in user_statement:
+        #     add()
 
-    if ("show") in user_statement:
-        print(data['keywords'])
+        # if ("remove") in user_statement:
+        #     remove()
 
-    if ("help") in user_statement:
-        print("poo")
-    # This will display a list of commands that can be given
+        # if ("show") in user_statement:
+        #     print(data['keywords'])
+
+        # if ("help") in user_statement:
+        #     print("poo")
+        # # This will display a list of commands that can be given

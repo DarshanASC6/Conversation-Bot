@@ -33,5 +33,11 @@
     "Grade",
     "school",
     "School"
+  ],
+
+  "commands": [
+    "show",
+    "remove",
+    "help"
   ]
 }
