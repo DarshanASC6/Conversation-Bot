@@ -37,6 +37,7 @@
 
   "commands": [
     "show",
+    "add",
     "remove",
     "help"
   ]
