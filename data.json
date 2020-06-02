@@ -1,13 +1,37 @@
 {
-    "silent_answer": ["*shrugs*", "*silence*", "*stoic face combined with silence*", "*annyoed silence*"],
-    
-    "question_answer": ["What can I have to eat?", "When can I get a new book?", "When are we going back to New York?"],
-
-    "statement_answer": ["Nah", "No", "One second", "Yeah, let me just finish this first", "Please stop pestering me about this", "Did Mom put you up to this?"],
-
-    "food_answer": ["I'm good with anything", "Can I have desert?", "What can I have to eat?"],
-
-    "greeting_answer": ["Hello", "Sup?"],
-
-    "keywords": ["ACT", "grade", "Grade", "school", "School"]
+  "silent_answer": [
+    "*shrugs*",
+    "*silence*",
+    "*stoic face combined with silence*",
+    "*annyoed silence*"
+  ],
+  "question_answer": [
+    "What can I have to eat?",
+    "When can I get a new book?",
+    "When are we going back to New York?"
+  ],
+  "statement_answer": [
+    "Nah",
+    "No",
+    "One second",
+    "Yeah, let me just finish this first",
+    "Please stop pestering me about this",
+    "Did Mom put you up to this?"
+  ],
+  "food_answer": [
+    "I'm good with anything",
+    "Can I have desert?",
+    "What can I have to eat?"
+  ],
+  "greeting_answer": [
+    "Hello",
+    "Sup?"
+  ],
+  "keywords": [
+    "ACT",
+    "grade",
+    "Grade",
+    "school",
+    "School"
+  ]
 }

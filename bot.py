@@ -18,38 +18,38 @@ def create_speech(user_statement, answer, num):
 def add():
     # This function doesn't work now because of the .JSON file lol
     
-    x = user_statement.split(" ")
+    # x = user_statement.split(" ")
 
-    answer = x[1]
+    # answer = x[1]
     
-    array_name = x[2]
+    # array_name = x[2]
 
-    for i in data[array_name]
-        del i [answer]
-    # Error in the code
+    # for i in data[array_name]
+    #     del i [answer]
+    # # Error in the code
 
     with open('data.json', 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=2)
 
-    print("added",answer,"to", array_name)
+    # print("added",answer,"to", array_name)
 
 def remove():
     # This function also doesn't work now lol
 
-    x = user_statement.split(" ")
+    # x = user_statement.split(" ")
 
-    answer = x[1]
+    # answer = x[1]
     
-    array_name = x[2]
+    # array_name = x[2]
 
-    for i in data[array_name]
-        del i [answer]
-    # Error in the code
+    # for i in data[array_name]
+    #     del i [answer]
+    # # Error in the code
 
     with open('data.json', 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=2)
         
-        print("removed",answer,"from", array_name)
+        # print("removed",answer,"from", array_name)
 
 while True:
 
