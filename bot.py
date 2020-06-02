@@ -10,7 +10,7 @@ food_answer = ["I'm good with anything", "Can I have desert?", "What can I have 
 
 greeting_answer = ["Hello", "Ayo", "Sup?"] 
 
-answers = ["ACT", "grade", "Grade", "school", "School"]
+keywords = ["ACT", "grade", "Grade", "school", "School"]
 
 def create_speech(user_statement, answer, num):
 
@@ -24,13 +24,26 @@ def create_speech(user_statement, answer, num):
     else:
         return random.choice(question_answer)
 
+def add():
+    x = user_statement.split(" ")
+
+    answer = x[1]
+    
+    array_name = x[2]
+    
+    array_name.append(answer)
+    # Error in the code
+    
+    print("added",answer,"to", array_name)
+
+
 while True:
 
     num = random.randint(1,3)
 
     user_statement = input("")
 
-    for i in answers:
+    for i in keywords:
         response = create_speech(user_statement=user_statement, answer=i, num=num) 
         if response is not None:
             print(response)
@@ -40,14 +53,16 @@ while True:
     # This if statement handles all questions with the word "food" in them
 
     if "add" in user_statement:
-        question_answer.append("orange")
-        question_answer == (question_answer[-1])
+        add()
     # This will write to the above answers
 
     if ("remove" in user_statement):
         question_answer.pop()
-        question_answer == (question_answer[-1])
     # This will remove one of the above answers
 
     if ("show" in user_statement):
-        print(question_answer)
+        print(keywords)
+
+    if ("help" in user_statement):
+        print("poo")
+    # This will display a list of commands that can be given
