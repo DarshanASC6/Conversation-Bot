@@ -1,16 +1,9 @@
 import random
+import json
 
-silent_answer = ["*shrugs*", "*silence*", "*stoic face combined with silence*", "*annyoed silence*"]
-
-question_answer = ["What can I have to eat?", "When can I get a new book?", "When are we going back to New York?"]
-
-statement_answer = ["Nah", "No", "One second", "Yeah, let me just finish this first", "Please stop pestering me about this", "Did Mom put you up to this?"]
-
-food_answer = ["I'm good with anything", "Can I have desert?", "What can I have to eat?"]
-
-greeting_answer = ["Hello", "Ayo", "Sup?"] 
-
-keywords = ["ACT", "grade", "Grade", "school", "School"]
+with open("data.json") as f:
+    data = json.load(f)
+# Pulls data from a .JSON file
 
 def create_speech(user_statement, answer, num):
 
@@ -18,11 +11,9 @@ def create_speech(user_statement, answer, num):
         return None
 
     if num == 1:
-        return random.choice(silent_answer)
-    elif num == 2:
-        return random.choice(statement_answer)    
+        return random.choice(data['silent_answer'])
     else:
-        return random.choice(question_answer)
+        return random.choice(data['statement_answer'])
 
 def add():
     x = user_statement.split(" ")
@@ -36,33 +27,32 @@ def add():
     
     print("added",answer,"to", array_name)
 
-
 while True:
 
-    num = random.randint(1,3)
+    num = random.randint(1,2)
 
     user_statement = input("")
 
-    for i in keywords:
+    for i in data['keywords']:
         response = create_speech(user_statement=user_statement, answer=i, num=num) 
         if response is not None:
             print(response)
 
     if ("food" or "Food") in user_statement:
-        print(random.choice(food_answer))
+        print(random.choice(data['food_answer']))
     # This if statement handles all questions with the word "food" in them
 
-    if "add" in user_statement:
+    if ("add") in user_statement:
         add()
     # This will write to the above answers
 
-    if ("remove" in user_statement):
+    if ("remove") in user_statement:
         question_answer.pop()
     # This will remove one of the above answers
 
-    if ("show" in user_statement):
-        print(keywords)
+    if ("show") in user_statement:
+        print(data['keywords'])
 
-    if ("help" in user_statement):
+    if ("help") in user_statement:
         print("poo")
     # This will display a list of commands that can be given
