@@ -8,6 +8,8 @@ statement_answer = ["Nah", "No", "One second", "Yeah, let me just finish this fi
 
 food_answer = ["I'm good with anything", "Can I have desert?", "What can I have to eat?"]
 
+greeting_answer = ["Hello", "Ayo", "Sup?"] 
+
 answers = ["ACT", "grade", "Grade", "school", "School"]
 
 def create_speech(user_statement, answer, num):
@@ -33,18 +35,19 @@ while True:
         if response is not None:
             print(response)
 
-    if "food" or "Food" in user_statement:
+    if ("food" or "Food") in user_statement:
         print(random.choice(food_answer))
     # This if statement handles all questions with the word "food" in them
 
     if "add" in user_statement:
         question_answer.append("orange")
-        print(question_answer[-1])
-        print(question_answer)
+        question_answer == (question_answer[-1])
     # This will write to the above answers
 
     if ("remove" in user_statement):
         question_answer.pop()
-        print(question_answer[-1])
-        print(question_answer)
+        question_answer == (question_answer[-1])
     # This will remove one of the above answers
+
+    if ("show" in user_statement):
+        print(question_answer)
