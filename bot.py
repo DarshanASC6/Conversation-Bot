@@ -1,7 +1,7 @@
 import random
 import json
 
-with open("data.json") as f:
+with open('data.json') as f:
     data = json.load(f)
 # Pulls data from a .JSON file
 
@@ -16,16 +16,40 @@ def create_speech(user_statement, answer, num):
         return random.choice(data['statement_answer'])
 
 def add():
+    # This function doesn't work now because of the .JSON file lol
+    
     x = user_statement.split(" ")
 
     answer = x[1]
     
     array_name = x[2]
-    
-    array_name.append(answer)
+
+    for i in data[array_name]
+        del i [answer]
     # Error in the code
-    
+
+    with open('data.json', 'w') as f:
+        json.dump(data, f)
+
     print("added",answer,"to", array_name)
+
+def remove():
+    # This function also doesn't work now lol
+
+    x = user_statement.split(" ")
+
+    answer = x[1]
+    
+    array_name = x[2]
+
+    for i in data[array_name]
+        del i [answer]
+    # Error in the code
+
+    with open('data.json', 'w') as f:
+        json.dump(data, f)
+        
+        print("removed",answer,"from", array_name)
 
 while True:
 
@@ -44,11 +68,9 @@ while True:
 
     if ("add") in user_statement:
         add()
-    # This will write to the above answers
 
     if ("remove") in user_statement:
-        question_answer.pop()
-    # This will remove one of the above answers
+        remove()
 
     if ("show") in user_statement:
         print(data['keywords'])
