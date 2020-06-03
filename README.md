@@ -36,3 +36,5 @@ Relax.
 4. 6/2/20, 9:13PM. Reddit responded once and never wrote back. To be honest, I don't blame them. Might have carpal tunnel. This has taken way too long; I might just move on from the JSON file.
 
 5. 6/2/20, 9:20. "Holy shit. What if I had a command simply to open the add/remove functionality in a for loop? Could that work?" This was a sudden thought I had. Not sure if it's legit or not. Also need to see if there's somewhere I can go for near-immediate answers, simply because one Reddit post is taking too damn long.
+
+6. 6/2/20, 10:23. Back at it again. Made a new Reddit post (https://www.reddit.com/r/learnpython/comments/gvl7az/ive_been_having_a_bunch_of_problems_with_my/), not sure if it will do any good. I dunno man, it's tired.
