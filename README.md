@@ -2,7 +2,7 @@
 I'm an antisocial SOB. As such, I coded a bot in Python that simulates a conversation with me, but badly. Yay.
 
 # How to use it:
-Enter anything. A question, a statement, etc. The bot will respond to it accordingly.
+Enter anything. A question, a statement, etc. The bot will respond to it accordingly. But not really though, because that would require more time and effort.
 
 *Note: THIS IS A JOKE.*
 This is meant as a fun, passion project. The description above is a joke.
@@ -13,17 +13,17 @@ Relax.
     - Responsible for playing audio without opening up the default music playing program. I think.
 
 - gTTS
-    - Google Text To Speech. Self explanitory. You got this. I got this. Positive vibes. My god, this document is horrendous.
+  - Google Text To Speech. Self explanatory. You got this. I got this. Positive vibes. My god, this document is horrendous.
 
 # To-Do:
-- User input for add/remove functions, so he user can specify what to add/remove
+- User input for add/remove functions, so the user can specify what to add/remove
     - Yeah, that can take a backseat. It's weird and I can't do it consistently enough. So, screw it. I can save and add answers. 
 
-- Text to Speech
+- Text to Speech (gTTS)
 - Speech Recognition
     - I have a massive backlog of videos to consult. I might actually post all my resources when I finish this. 
 
-- Multipe Python files because organization
+- Multiple Python files because organization
     - Yeah. Why not.
 
 # Dev Notes (Read: journaling my slow loss of sanity because I don't know how to code):

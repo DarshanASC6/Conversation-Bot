@@ -49,6 +49,10 @@ def create_speech(user_statement, answer, num):
         
 #         print("removed",answer,"from", array_name)
 
+def show():
+    array_name = user_statement.split(" ")
+    print(array_name[1])
+
 while True:
 
     num = random.randint(1,2)
@@ -60,16 +64,17 @@ while True:
         if response is not None:
             print(response)
 
-    for i in data['commands']:
-        # make a function here using all of the if statements below 
-        # modify()
-
         if ("food" or "Food") in user_statement:
             print(random.choice(data['food_answer']))
         # This if statement handles all questions with the word "food" in them
 
+
+    for i in data['commands']:
+        # make a function here using all of the if statements below 
+        # modify()
+
         if ("show") in user_statement:
-            print(data['greeting_answer'])
+            show()
             #This should show a specific array
 
         if ("help") in user_statement:
