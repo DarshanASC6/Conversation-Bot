@@ -20,16 +20,18 @@ def create_speech(user_statement, answer, num):
         return random.choice(data['statement_answer'])
 
 # Does not work
-# def modify():
-#     command, name, value = user_statement.split()
-#     if command == "add":
-#         data[name].append(value)
-#         with open('data.json', 'w') as f:
-#             json.dump(data, f, indent=2)
-#         print("added",value,"to", name)
-#     elif command == "remove":
-#         data[name].pop(value)
-#         print("removed",value,"from", name)
+def modify():
+    command, name, value = user_statement.split()
+    if command == "add":
+        data[name].append(value)
+        print("added",value,"to", name)
+        with open('data.json', 'w') as f:
+            json.dump(data, f, indent=2)
+    elif command == "remove":
+        data[name].pop(value)
+        print("removed",value,"from", name)
+        with open('data.json', 'w') as f:
+            json.dump(data, f, indent=2)
 
 def show():
     array_name = user_statement.split(" ")
@@ -65,7 +67,7 @@ while True:
 
     for i in data['commands']:
         # make a function here using all of the if statements below 
-        # modify()
+        modify()
 
         if ("show") in user_statement:
             show()
