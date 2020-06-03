@@ -68,9 +68,10 @@ while True:
             print(random.choice(data['food_answer']))
         # This if statement handles all questions with the word "food" in them
         
+        # Error here
         if "end" in user_statement:
             break
-        # This should end the ocnversation and stop the program
+        # This should end the ocnversation and stop the program.
 
     for i in data['commands']:
         # make a function here using all of the if statements below 
