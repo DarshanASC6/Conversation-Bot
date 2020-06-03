@@ -1,5 +1,9 @@
 import random
 import json
+import os
+import playsound
+from gtts import gTTS
+
 
 with open('data.json') as f:
     data = json.load(f)
@@ -15,46 +19,30 @@ def create_speech(user_statement, answer, num):
     else:
         return random.choice(data['statement_answer'])
 
+# Does not work
 # def modify():
-#     # This function doesn't work now because of the .JSON file lol
-#     if ("add") in user_statement:
-#         x = user_statement.split(" ")
-
-#         answer = x[1]
-    
-#         array_name = x[2]
-
-#         for i in data[array_name]
-#             del i [answer]
-#     # Error in the code
-
+#     command, name, value = user_statement.split()
+#     if command == "add":
+#         data[name].append(value)
 #         with open('data.json', 'w') as f:
 #             json.dump(data, f, indent=2)
-
-#         print("added",answer,"to", array_name)
-
-#     if ("remove") in user_statement:
-#         x = user_statement.split(" ")
-
-#         answer = x[1]
-    
-#         array_name = x[2]
-
-#         for i in data[array_name]
-#             del i [answer]
-#         # Error in the code
-        
-#         with open('data.json', 'w') as f:
-#             json.dump(data, f, indent=2)
-        
-#         print("removed",answer,"from", array_name)
+#         print("added",value,"to", name)
+#     elif command == "remove":
+#         data[name].pop(value)
+#         print("removed",value,"from", name)
 
 def show():
     array_name = user_statement.split(" ")
     print(array_name[1])
 
-while True:
+def speak(text):
+    tts = gTTS(text=text, lang="en")
+    filename = "response.mp3"
+    tts.save(filename)
+    playsound.playsound(filename)
+    os.remove(filename)
 
+while True:
     num = random.randint(1,2)
 
     user_statement = input("")
@@ -63,9 +51,11 @@ while True:
         response = create_speech(user_statement=user_statement, answer=i, num=num) 
         if response is not None:
             print(response)
+            speak(response)
 
-        if ("food" or "Food") in user_statement:
-            print(random.choice(data['food_answer']))
+    if ("food" or "Food" or "eat" or "Eat") in user_statement:
+        print(random.choice(data['food_answer']))
+        speak(random.choice(data['food_answer']))
         # This if statement handles all questions with the word "food" in them
         
         # Error here

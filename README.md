@@ -1,15 +1,14 @@
 # Conversation Bot
-I'm an antisocial SOB. As such, I coded a bot in Python that simulates a conversation with me, but badly. Yay.
+I'm an antisocial SOB. As such, I coded a bot in Python that simulates a conversation with me, but badly. Or perhaps a bit too well. Yay.
 
 # How to use it:
 Enter anything. A question, a statement, etc. The bot will respond to it accordingly. But not really though, because that would require more time and effort.
 
 *Note: THIS IS A JOKE.*
-This is meant as a fun, passion project. The description above is a joke.
-Relax.
+This is meant as a fun, passion project. The description above is a joke. My slow desent into late-night insanity, however, not so much.
 
 # Requirements:
-- pyaudio
+- playsound
     - Responsible for playing audio without opening up the default music playing program. I think.
 
 - gTTS
@@ -17,7 +16,10 @@ Relax.
 
 # To-Do:
 - User input for add/remove functions, so the user can specify what to add/remove
-    - Yeah, that can take a backseat. It's weird and I can't do it consistently enough. So, screw it. I can save and add answers. 
+    - Yeah, that can take a backseat. It's weird and I can't do it consistently enough. So, screw it. 
+
+- Fix "show array" function
+    - Also broken, because I can't use a list as a key
 
 - Text to Speech (gTTS)
 - Speech Recognition
@@ -35,8 +37,22 @@ Relax.
 
 4. 6/2/20, 9:13PM. Reddit responded once and never wrote back. To be honest, I don't blame them. Might have carpal tunnel. This has taken way too long; I might just move on from the JSON file.
 
-5. 6/2/20, 9:20. "Holy shit. What if I had a command simply to open the add/remove functionality in a for loop? Could that work?" This was a sudden thought I had. Not sure if it's legit or not. Also need to see if there's somewhere I can go for near-immediate answers, simply because one Reddit post is taking too damn long.
+5. 6/2/20, 9:20 PM. "Holy shit. What if I had a command simply to open the add/remove functionality in a for loop? Could that work?" This was a sudden thought I had. Not sure if it's legit or not. Also need to see if there's somewhere I can go for near-immediate answers, simply because one Reddit post is taking too damn long.
 
-6. 6/2/20, 10:23. Back at it again. Made a new Reddit post (https://www.reddit.com/r/learnpython/comments/gvl7az/ive_been_having_a_bunch_of_problems_with_my/), not sure if it will do any good. I dunno man, it's tired.
+6. 6/2/20, 10:23 PM. Back at it again. Made a new Reddit post (https://www.reddit.com/r/learnpython/comments/gvl7az/ive_been_having_a_bunch_of_problems_with_my/), not sure if it will do any good. I dunno man, it's tired.
 
-7. 6/2/20, 10:37. Lol "it's tired". Might jump to another project and stop banging my head on a wall. How the hell does one learn to code good? If I wern't 16, I'd be kinda sad.
+7. 6/2/20, 10:37 PM. Lol "it's tired". Might jump to another project and stop banging my head on a wall. How the hell does one learn to code good? If I weren't 16, I'd be kinda sad.
+
+8. 6/3/20, 8:12 AM. Went to bed at nearly 12 last night. I tried to add another website to my web scraper, but it didn't seem to work. Whatever. I could probably use selenium to make a school web scraper, or even just a program that logs me in and registers my attendance. Maybe I should try Stack Overflow instead of Reddit.
+
+9. 6/3/20, 8:18 AM. It kinda sucks that everything I want to expand this project with can't be done. Maybe I can have all of the other commands ("show", "add", "remove", etc.) from a different file. I gotta do more research on that.
+
+10. 6/3/20, 11:13 AM. My spelling is atrotious
+
+11. 6/3/20, 1:19 PM. Reddit came through on the editing JSON front. Apparently I should just keep it all in one doc. Seems legit. Will try and implemet gTTS today, maybe.
+
+12. 6/3/20, 2:28 PM. Reddit was wrong or mistaken, not sure which. It doesn't matter. I'll probably just work on gTTS right about now.
+
+13. 6/3/20, 5:08 PM. Just added text to speech. It sounds kinda lifeless, but other than that it's absolutey amazing. I might actually record some audio in place of text to speech. Hard to believe that adding text to speech was the easiest part of this project.
+
+14. 6/3/20, 5:27 PM. Everything works great, except for modifying stuff. Reddit gave up (I don't blame them tbh). Will work on food and/or mic input next.
