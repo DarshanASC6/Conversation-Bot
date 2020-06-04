@@ -9,14 +9,18 @@
   "question_answer": [
     "What can I have to eat?",
     "When can I get a new book?",
-    "When are we going back to New York?"
+    "What are you doing?",
+    "How are you doing?",
+    "How was school?",
+    "How was work?"
   ],
   "statement_answer": [
     "Nah",
     "No",
+    "Sure",
     "One second",
-    "Yeah, let me just finish this first",
-    "Please stop pestering me about this",
+    "Let me just finish this first",
+    "Please stop pestering me",
     "Did Mom put you up to this?",
     "Do me a favor and just let me be for a minute",
     "I need a minute to myself, hope you don't mind"
@@ -34,7 +38,7 @@
     "What's up?",
     "What do you want from me?"
   ],
-  "keywords": [
+  "academic_phrase": [
     "ACT",
     "grade",
     "Grade",
