@@ -30,7 +30,8 @@ This is meant as a fun, passion project. The description above is a joke. My slo
      - ~~Yeah. Why not.~~
     - So apparently this is uneccesary because the program is fine as is. Yay.
 
-# Resources (for whatever ~~crackhead~~ literal sociopath wants to go through them all):
+# Resources (for whatever ~~crackhead~~ literal sociopath has both the motivation and the time to go through them all):
+
     - https://www.reddit.com/r/learnpython/comments/gvw5ff/ive_been_having_a_lot_of_problems_with_my_code/fsru9j8/
     - https://www.reddit.com/r/learnpython/comments/gvl7az/ive_been_having_a_bunch_of_problems_with_my/ (Now no longer up lmao)
     -  https://www.reddit.com/r/learnpython/comments/gu35ar/i_cant_seem_to_edit_a_list_from_within_a_for/
@@ -49,7 +50,12 @@ This is meant as a fun, passion project. The description above is a joke. My slo
     - https://www.geeksforgeeks.org/getpass-and-getuser-in-python-password-without-echo/
     - https://www.geeksforgeeks.org/python-program-check-validity-password/
     - https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
-    - 
+    - https://datatofish.com/modify-list-python/
+    - https://www.w3schools.com/python/python_lists.asp
+    - https://wiki.python.org/moin/ForLoop
+    - https://stackoverflow.com/questions/4081217/how-to-modify-list-entries-during-for-loop
+    - https://stackoverflow.com/questions/1637807/modifying-list-while-iterating
+    - https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
 
 # Dev Notes (Read: journaling my slow loss of sanity because I don't know how to code):
 1. I have an add function working, kinda.
@@ -90,4 +96,6 @@ This is meant as a fun, passion project. The description above is a joke. My slo
 
 19. 6/3/20, 10:20 PM. I've been thinking. Perhaps I coded this to give my friends smething to mess around with to remind them of me. This is a bit personal, but I may be moving out of state because of COVID. It's scaring the shit out of me the more I think about it. Deep down, I really don't want to leave behind my school and all my friends. I know I claim to hold a small circle of friends, but I still hold a wide ring of people I'm close to, because I befriend people (or try to, anyways, because being someone's enemy is more exhausting than being their friend). The thought of leaving them all behind is rather scary, and I don't really like to dwell on it. Maybe I should write something for flux on the subject, just to get it out of my head and on paper ("paper"). Shit.
 
-20. 6/3/20, 10:26 PM. Perhaps I need therapy. Or maybe just a therapy dog. I lowkey love how this justtransitioned from my casual notes on development to a place for me to open up.
+20. 6/3/20, 10:26 PM. Perhaps I need therapy. Or maybe just a therapy dog. I lowkey love how this just transitioned from my casual notes on development to a place for me to open up.
+
+21. 6/3/20, 10:39 PM. Just finished adding all the sources. Everything in this readme file is decent practice, I feel, so I'll try to keep it up as time goes on.

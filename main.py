@@ -84,5 +84,5 @@ while True:
         
 
     for i in data['commands']:
-        # Not sure why this doesn't work 
+        # Not sure why this is in a for loop tbh
         tools()
