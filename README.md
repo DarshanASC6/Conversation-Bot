@@ -16,16 +16,17 @@ This is meant as a fun, passion project. The description above is a joke. My slo
 
 # To-Do:
 - User input for add/remove functions, so the user can specify what to add/remove
-    - ~~Yeah, that can take a backseat. It's weird and I can't do it consistently enough. So, screw it.~~ You're an idiot, it works fine
+    - ~~Yeah, that can take a backseat. It's weird and I can't do it consistently enough. So, screw it.~~ 
+    - You're an idiot, it works fine. But not really though.
 
 - ~~Fix "show array" function~~ Done! Yay! I need some eats!
-    - Also broken, because I can't use a list as a key
+    - ~~Also broken, because I can't use a list as a key~~
 
 - ~~Text to Speech (gTTS)~~ Done!
 - Speech Recognition
     - I have a massive backlog of videos to consult. I might actually post all my resources when I finish this. 
 
-- Multiple Python files because organization
+- ~~Multiple Python files because organization~~
      - ~~Yeah. Why not.~~
     - So apparently this is uneccesary because the program is fine as is. Yay.
 
@@ -63,3 +64,9 @@ This is meant as a fun, passion project. The description above is a joke. My slo
 16. 6/3/20, 10:02 PM. Looking back through all of these dev notes, they seem to resemble some sort of wack ass journal. Perhaps that's what I need in life: to write down my thoughts so that I don't dwell on them as much as I do. Hard to say. The Redditor's pretty chill, it seems.
 
 17. 6/3/20, 10:10 PM. Not gonna lie, keeping this log was kinda nice. It's interesting to see how my ideas come to me, even if so few of them were right. It's also rather disturbing to see how bad my spelling is. 
+
+18. 6/3/20, 10:19 PM. The GitHub README page do be looking kinda fresh though, ngl.
+
+19. 6/3/20, 10:20 PM. I've been thinking. Perhaps I coded this to give my friends smething to mess around with to remind them of me. This is a bit personal, but I may be moving out of state because of COVID. It's scaring the shit out of me the more I think about it. Deep down, I really don't want to leave behind my school and all my friends. I know I claim to hold a small circle of friends, but I still hold a wide ring of people I'm close to, because I befriend people (or try to, anyways, because being someone's enemy is more exhausting than being their friend). The thought of leaving them all behind is rather scary, and I don't really like to dwell on it. Maybe I should write something for flux on the subject, just to get it out of my head and on paper ("paper"). Shit.
+
+20. 6/3/20, 10:26 PM. Perhaps I need therapy. Or maybe just a therapy dog. I lowkey love how this justtransitioned from my casual notes on development to a place for me to open up.
