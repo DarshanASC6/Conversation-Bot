@@ -30,6 +30,27 @@ This is meant as a fun, passion project. The description above is a joke. My slo
      - ~~Yeah. Why not.~~
     - So apparently this is uneccesary because the program is fine as is. Yay.
 
+# Resources (for whatever ~~crackhead~~ literal sociopath wants to go through them all):
+    - https://www.reddit.com/r/learnpython/comments/gvw5ff/ive_been_having_a_lot_of_problems_with_my_code/fsru9j8/
+    - https://www.reddit.com/r/learnpython/comments/gvl7az/ive_been_having_a_bunch_of_problems_with_my/ (Now no longer up lmao)
+    -  https://www.reddit.com/r/learnpython/comments/gu35ar/i_cant_seem_to_edit_a_list_from_within_a_for/
+    - https://docs.python.org/3/library/random.html
+    - https://stackoverflow.com/questions/5319922/python-check-if-word-is-in-a-string
+    - https://www.google.com/search?client=firefox-b-1-d&q=how+to+continuously+request+user+input+python#kpvalbx=_yDfMXv3RAcLI_QaX1KVg33
+    - https://www.programiz.com/python-programming/examples/random-number
+    - https://www.google.com/search?client=firefox-b-1-d&q=text+to+speech+python
+    - https://www.w3schools.com/python/python_lists.asp
+    - https://realpython.com/python-print/
+    - https://www.geeksforgeeks.org/check-multiple-conditions-in-if-statement-python/
+    - https://www.tutorialspoint.com/python/python_basic_operators.htm
+    - https://lucidar.me/en/python/count-elements/
+    - http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html
+    - https://www.tutorialspoint.com/python/python_functions.htm
+    - https://www.geeksforgeeks.org/getpass-and-getuser-in-python-password-without-echo/
+    - https://www.geeksforgeeks.org/python-program-check-validity-password/
+    - https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+    - 
+
 # Dev Notes (Read: journaling my slow loss of sanity because I don't know how to code):
 1. I have an add function working, kinda.
 
