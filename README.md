@@ -16,12 +16,12 @@ This is meant as a fun, passion project. The description above is a joke. My slo
 
 # To-Do:
 - User input for add/remove functions, so the user can specify what to add/remove
-    - Yeah, that can take a backseat. It's weird and I can't do it consistently enough. So, screw it. 
+    - ~~Yeah, that can take a backseat. It's weird and I can't do it consistently enough. So, screw it.~~ You're an idiot, it works fine
 
-- Fix "show array" function
+- ~~Fix "show array" function~~ Done! Yay! I need some eats!
     - Also broken, because I can't use a list as a key
 
-- Text to Speech (gTTS)
+- ~~Text to Speech (gTTS)~~ Done!
 - Speech Recognition
     - I have a massive backlog of videos to consult. I might actually post all my resources when I finish this. 
 
