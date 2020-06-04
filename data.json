@@ -36,14 +36,18 @@
     "Hey",
     "Hullo",
     "What's up?",
-    "What do you want from me?"
+    "What can I do for you?"
   ],
   "academic_phrase": [
     "ACT",
     "grade",
     "Grade",
     "school",
-    "School"
+    "School",
+    "college",
+    "College",
+    "office hours",
+    "Office hours"
   ],
   "commands": [
     "show",

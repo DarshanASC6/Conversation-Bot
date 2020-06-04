@@ -96,7 +96,7 @@ while True:
         if response is not None:
             print(response)
             speak(response)
-    # Handles the user asking/talking about
+    # Handles the user asking/talking about food
 
 
     # while True:

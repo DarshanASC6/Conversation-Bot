@@ -24,7 +24,7 @@ This is meant as a fun, passion project. The description above is a joke. My slo
 
 - ~~Text to Speech (gTTS)~~ Done!
 - Speech Recognition
-    - I have a massive backlog of videos to consult. I might actually post all my resources when I finish this. 
+    - ~~I have a massive backlog of videos to consult. I might actually post all my resources when I finish this.~~ Done! 
 
 - ~~Multiple Python files because organization~~
      - ~~Yeah. Why not.~~
@@ -99,3 +99,7 @@ This is meant as a fun, passion project. The description above is a joke. My slo
 20. 6/3/20, 10:26 PM. Perhaps I need therapy. Or maybe just a therapy dog. I lowkey love how this just transitioned from my casual notes on development to a place for me to open up.
 
 21. 6/3/20, 10:39 PM. Just finished adding all the sources. Everything in this readme file is decent practice, I feel, so I'll try to keep it up as time goes on.
+
+22. 6/4/20, 10:37 AM. Last night I was kinda a wreck, ngl. I talked to a friend and got over it, though, so I'm all good now. I might think up some more stuff to add to the bot, but I'm not in much of a hurry.
+
+23. 6/4/20, 11:04 AM. 
