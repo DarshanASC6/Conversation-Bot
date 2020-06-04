@@ -26,7 +26,7 @@ This is meant as a fun, passion project. The description above is a joke. My slo
     - I have a massive backlog of videos to consult. I might actually post all my resources when I finish this. 
 
 - Multiple Python files because organization
-    ~~Yeah. Why not.~~
+     - ~~Yeah. Why not.~~
     - So apparently this is uneccesary because the program is fine as is. Yay.
 
 # Dev Notes (Read: journaling my slow loss of sanity because I don't know how to code):
