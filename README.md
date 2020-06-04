@@ -26,7 +26,8 @@ This is meant as a fun, passion project. The description above is a joke. My slo
     - I have a massive backlog of videos to consult. I might actually post all my resources when I finish this. 
 
 - Multiple Python files because organization
-    - Yeah. Why not.
+    ~~Yeah. Why not.~~
+    - So apparently this is uneccesary because the program is fine as is. Yay.
 
 # Dev Notes (Read: journaling my slow loss of sanity because I don't know how to code):
 1. I have an add function working, kinda.
@@ -56,3 +57,9 @@ This is meant as a fun, passion project. The description above is a joke. My slo
 13. 6/3/20, 5:08 PM. Just added text to speech. It sounds kinda lifeless, but other than that it's absolutey amazing. I might actually record some audio in place of text to speech. Hard to believe that adding text to speech was the easiest part of this project.
 
 14. 6/3/20, 5:27 PM. Everything works great, except for modifying stuff. Reddit gave up (I don't blame them tbh). Will work on food and/or mic input next.
+
+15. 6/3/20, 8:47 PM. Redditor came through in the end. Sorta. Adding stuff to arrays "works", in the sense that it adds it four times. Removing stuff doesn't work at all. But it's progress. Jesus, if only I knew what I was doing, this would take half as much time.
+
+16. 6/3/20, 10:02 PM. Looking back through all of these dev notes, they seem to resemble some sort of wack ass journal. Perhaps that's what I need in life: to write down my thoughts so that I don't dwell on them as much as I do. Hard to say. The Redditor's pretty chill, it seems.
+
+17. 6/3/20, 10:10 PM. Not gonna lie, keeping this log was kinda nice. It's interesting to see how my ideas come to me, even if so few of them were right. It's also rather disturbing to see how bad my spelling is. 

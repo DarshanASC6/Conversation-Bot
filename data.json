@@ -27,7 +27,11 @@
   ],
   "greeting_answer": [
     "Hello",
-    "Sup?"
+    "Sup?",
+    "Hey",
+    "Hullo",
+    "What's up?",
+    "What do you want from me?"
   ],
   "keywords": [
     "ACT",
@@ -40,6 +44,7 @@
     "show",
     "add",
     "remove",
-    "help"
+    "help",
+    "end"
   ]
 }
